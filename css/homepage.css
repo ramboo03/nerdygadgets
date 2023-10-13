@@ -8,7 +8,6 @@
     list-style: none;
     text-decoration: none;
 }
-
    
 header{
     width: 100%;
@@ -24,7 +23,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 .content{
     position: relative;

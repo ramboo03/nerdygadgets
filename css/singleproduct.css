@@ -26,15 +26,6 @@ header{
 
 }
 
-.circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #23232F;
-    clip-path: circle(600px at right 800px);
-}
 .logo img{
     max-width: 120px;
     height: auto;
@@ -52,7 +43,6 @@ header{
     padding: 10px 20px;
     font-weight: 400;
     transition: all .42s ease;
-
 }
 
 .navmenus a:hover{
@@ -68,13 +58,11 @@ header{
     padding: 10px 20px;
     font-weight: 400;
     transition: all .42s ease;
-
 }
 
 .navmenu a:hover{
     color: #EE1C47;
 }
-
 
 .nav-icon{
     display: flex;
@@ -104,57 +92,28 @@ header.sticky{
     box-shadow: 0px 0px 10px rgb(2 3 2 3 F/ 10%);
 }
 
-/*trending-section-css*/
-.center-text h2{
-    color: #111;
-    font-size: 28px;
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.center-text span{
-    color: #23232F;
-}
-.products{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    gap: 2.6rem;
-}
-
-.up-center-text h2{
+.product-title{
     text-align: center;
     color: #111111;
     font-size: 25px;
     text-transform: capitalize;
     font-weight: 700;
-    margin-bottom: 30px;
+    padding: 20px 0;
 }
 
-.row{
-    position: relative;
-    transition: all .40s;
-}
-.row img{
-    width: 60%;
-    height: auto;
-    transition: all .40s;
-}
-.row img:hover{
-    transform: scale(0.9);
-}
-
-.cart img{
+.product-info img{
     width: 250px;
     height: auto;
     border-radius: 5px;
 }
-.update-cart{
+.product-info{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     gap: 1rem;
+    justify-content:space-around;
 }
 
-.product-info{
+.product-section{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
