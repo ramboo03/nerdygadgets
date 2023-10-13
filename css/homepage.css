@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -7,15 +8,14 @@
     list-style: none;
     text-decoration: none;
 }
+
+   
 header{
     width: 100%;
     height: 75px;
     line-height: 75px;
-    padding: 0px 100px;
     position: fixed;
     background-color: #23232F;
-}
-header{
     position: fixed;
     width: 100%;
     top: 0;
@@ -23,8 +23,7 @@ header{
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px 10%;
+    justify-content: space-evenly;
 
 }
 .content{
@@ -36,7 +35,7 @@ header{
 }
 .content .textBox{
   position: relative;
-  max-width: 600px;  
+  max-width: 600px;
 }
 .content .textBox h4{
     color: #333;
@@ -88,10 +87,7 @@ header{
     max-width: 120px;
     height: auto;
     position: relative;
-    top: 15px;
-    left: -100px;
-
-
+    display: flex;
 }
 .navmenus{
     display: flex;
@@ -142,6 +138,7 @@ header{
     transform: scale(1.1);
     color: #EE1C47;
 }
+
 #menu-icon{
     font-size: 35px;
     color: #edfff1;
@@ -151,72 +148,8 @@ header{
 section{
     padding: 5% 10%;
 }
-.main-home{
-    width: 100%;
-    height: 110vh;
-    background-position: center;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    align-items: center;
-}
-.main-text h5{
-    color: #23232F;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 500;
-}
-.main-text h1{
-    color: #000000;
-    font-size: 65px;
-    text-transform: capitalize;
-    line-height: 1.1;
-    font-weight: 600;
-    margin: 6px 0 10px;
-}
-.main-text p{
-    color: #000000;
-    font-size: 20px;
-    font-style: italic;
-    margin-bottom: 20px;
-}
-.main-btn {
-    display: inline-block;
-    color: #111;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    border: 2px solid #111;
-    padding: 12px 25px;
-    transition: all .42s ease;
-}
-.main-btn:hover{
-    background-color: #000;
-    color: #fff;
-}
-.main-btn i{
-    vertical-align: middle;
-}
-.down-arrow{
-    position: absolute;
-    top: 85%;
-    right: 11%;
-}
-.down i{
-    font-size: 30px;
-    color: #2c2c2c;
-    border: 2px solid #2c2c2c;
-    border-radius: 50px;
-    padding: 12px 12px;
-}
-.down i:hover{
-    background-color: #2c2c2c;
-    color: #fff;
-    transition: all .42s ease;
-}
 header.sticky{
     background: #23232F;
-    padding: 20px 10%;
     box-shadow: 0px 0px 10px rgb(2 3 2 3 F/ 10%);
 }
 
@@ -311,7 +244,7 @@ header.sticky{
     text-transform: capitalize;
     margin-bottom: 2px;
 }
-
+/*Footer css*/
 .up-center-text h2{
     text-align: center;
     color: #111111;
@@ -391,10 +324,17 @@ header.sticky{
     margin-right: 10px;
     font-size: 20px;
     transition: all .42s;
+    
 }
 .social-icon i:hover{
     transform:scale(1.3);
+    
 }
+.social-icon :hover{
+    color: #EE1C47;
+}
+    
+
 .end-text{
     background-color: #23232F;
     text-align: center;
@@ -481,7 +421,7 @@ header.sticky{
         align-items: center;
         justify-content: center;
     }
-    
+
     .search-bar{
         width: 2000px;
         max-width: 700px;
@@ -494,9 +434,9 @@ header.sticky{
         position: relative;
         right: 100px;
         height: 50px;
-        
+
     }
-    
+
     .search-bar input{
         background: transparent;
         flex: 1;
@@ -506,11 +446,11 @@ header.sticky{
         font-size: 20px;
         color: #23232F;
     }
-    
+
     ::placeholder{
         color: #bdbbc9;
     }
-    
+
     .search-bar button img{
         width: 25px;
     }
@@ -521,20 +461,20 @@ header.sticky{
         background: transparent;
         height: 50px;
         cursor: pointer;
-    
+
     }
     .User{
         display: flex;
         align-items: center;
         position: relative;
-        left: 100px;
+        left: 30px;
 
     }
     .User i{
         margin-right: 600px;
         color: #23232f;
         font-size: 30px;
-        font-weight: 200;
+        font-weight: 20;
         transition: all .42s ease;
         position: relative;
         left:20px;
@@ -543,5 +483,4 @@ header.sticky{
         transform: scale(1.1);
         color: #23232F;
     }
-
 
